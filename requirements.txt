@@ -1,4 +1,4 @@
-python-dotenv
-flask
-flask_restful
-requests
+python-dotenv==0.14.0
+Flask==1.1.2
+Flask-RESTful==0.3.8
+requests==2.24.0
