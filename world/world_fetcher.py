@@ -1,7 +1,6 @@
 import time
-from threading import Thread
-
 import typing
+from threading import Thread
 
 import requests
 

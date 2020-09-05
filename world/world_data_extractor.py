@@ -1,7 +1,7 @@
 import typing
 
-from world.world_list_parser import WorldListParser
 from world.world import World
+from world.world_list_parser import WorldListParser
 
 
 class WorldDataExtractor:

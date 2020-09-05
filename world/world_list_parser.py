@@ -1,6 +1,5 @@
-from html.parser import HTMLParser
-
 import typing
+from html.parser import HTMLParser
 
 
 class WorldListParser(HTMLParser):
