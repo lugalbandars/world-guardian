@@ -1,4 +1,5 @@
 import typing
+
 from flask_restful import reqparse
 
 from filters.abstract_filter import AbstractFilter

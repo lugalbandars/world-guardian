@@ -54,3 +54,6 @@ class WorldFetcher(Thread):
         if not self._session:
             self._session = SessionCreator.create(self._proxy)
         return self._session
+
+
+world_fetcher = WorldFetcher()
