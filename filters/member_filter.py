@@ -1,4 +1,3 @@
-import typing
 from flask_restful import reqparse, inputs
 
 from filters.abstract_filter import AbstractFilter

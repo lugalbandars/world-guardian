@@ -1,6 +1,7 @@
 from os import path
 
 from flask_restful import Resource
+
 from definitions import ROOT_DIRECTORY
 
 with open(path.join(ROOT_DIRECTORY, 'version'), 'r') as f:
