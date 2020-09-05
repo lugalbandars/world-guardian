@@ -1,4 +1,4 @@
-# World Guardian
+# WorldGuardian
 
 World Guardian is a Python microservice that serves a REST API to easily query
 the OSRS world list and make easy to configure filtering.  
