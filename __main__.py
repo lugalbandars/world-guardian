@@ -76,7 +76,7 @@ class Info(Resource):
                 'info': "All in one bot farm automatization solution for an affordable price! "
                         "This project is an open source part of the service."
             },
-            'license': "https://github.com/lugalbandars/world-guardian/LICENSE.md",
+            'license': "https://github.com/lugalbandars/world-guardian/blob/master/LICENSE.md",
         }
 
 
