@@ -1,0 +1,38 @@
+<tbody class='server-list__body'>
+    <tr class='server-list__row server-list__row--members'>
+        <td class='server-list__row-cell'>
+                <a id='slu-world-324' class='server-list__world-link' href='https://oldschool.runescape.com/a=13/game?world=324'>Old School 24</a>
+        </td>
+        <td class='server-list__row-cell'>216 players</td>
+        <td class='server-list__row-cell server-list__row-cell--country server-list__row-cell--US'>United States</td>
+        <td class='server-list__row-cell server-list__row-cell--type'>Members</td>
+        <td class='server-list__row-cell'>-</td>
+    </tr>
+    <tr class='server-list__row server-list__row--pvp server-list__row--members'>
+        <td class='server-list__row-cell'>
+                <a id='slu-world-325' class='server-list__world-link' href='https://oldschool.runescape.com/a=13/game?world=325'>Old School 25</a>
+        </td>
+        <td class='server-list__row-cell'>304 players</td>
+        <td class='server-list__row-cell server-list__row-cell--country server-list__row-cell--GB'>United Kingdom</td>
+        <td class='server-list__row-cell server-list__row-cell--type'>Members</td>
+        <td class='server-list__row-cell'>PvP World</td>
+    </tr>
+    <tr class='server-list__row'>
+        <td class='server-list__row-cell'>
+                <a id='slu-world-326' class='server-list__world-link' href='https://oldschool.runescape.com/a=13/game?world=326'>Old School 26</a>
+        </td>
+        <td class='server-list__row-cell'>280 players</td>
+        <td class='server-list__row-cell server-list__row-cell--country server-list__row-cell--GB'>United Kingdom</td>
+        <td class='server-list__row-cell server-list__row-cell--type'>Free</td>
+        <td class='server-list__row-cell'>LMS Competitive</td>
+    </tr>
+    <tr class='server-list__row server-list__row--members'>
+        <td class='server-list__row-cell'>
+                <a id='slu-world-327' class='server-list__world-link' href='https://oldschool.runescape.com/a=13/game?world=327'>Old School 27</a>
+        </td>
+        <td class='server-list__row-cell'>855 players</td>
+        <td class='server-list__row-cell server-list__row-cell--country server-list__row-cell--DE'>Germany</td>
+        <td class='server-list__row-cell server-list__row-cell--type'>Members</td>
+        <td class='server-list__row-cell'>Ourania Altar</td>
+    </tr>
+</tbody>
