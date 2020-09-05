@@ -8,10 +8,10 @@ class PvpWorldFilter(AbstractFilter):
         parser = reqparse.RequestParser()
         parser.add_argument('pvp', type=inputs.boolean, help='[Boolean] PvP worlds allowed or not.')
         args = parser.parse_args()
+        is_pvp = args['pvp']
 
-        if args['pvp']:
-            is_pvp = args['pvp']
-            world_list = [world for world in self._world_list if world.pvp == is_pvp]
+        if is_pvp is not None:
+            world_list = [world for world in self._world_list if world.pvp is not None and world.pvp == is_pvp]
             return world_list
         else:
             return self._world_list
