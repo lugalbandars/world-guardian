@@ -13,4 +13,4 @@ class Homepage(Resource):
 
         return {
             'routes': OrderedDict(sorted(rules.items(), key=lambda rule: rule[0]))
-        }
+        }, 200, {'Access-Control-Allow-Origin': '*'}

@@ -20,4 +20,4 @@ class Info(Resource):
                         "This project is an open source part of the service."
             },
             'license': "https://github.com/lugalbandars/world-guardian/blob/master/LICENSE.md",
-        }
+        }, 200, {'Access-Control-Allow-Origin': '*'}

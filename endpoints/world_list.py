@@ -12,4 +12,4 @@ class WorldList(Resource):
             'last_update': world_fetcher.get_last_update(),
             'count': len(worlds),
             'worlds': worlds_json
-        }
+        }, 200, {'Access-Control-Allow-Origin': '*'}
