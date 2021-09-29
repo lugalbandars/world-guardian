@@ -27,7 +27,7 @@ class WorldDataExtractor:
 
         self._worlds = worlds
 
-    def get_worlds(self) -> typing.List[dict]:
+    def get_worlds(self) -> typing.List[World]:
         """Get the list of worlds"""
         return self._worlds
 

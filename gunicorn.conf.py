@@ -16,9 +16,9 @@ errorlog = "-"
 accesslog = "-"
 
 # bind = 'unix:%s' % os.path.join(_VAR, 'run/gunicorn.sock')
-bind = '0.0.0.0:5000'
+bind = '0.0.0.0:8001'
 # workers = 3
-workers = min(multiprocessing.cpu_count() * 2 + 1,
+workers = max(multiprocessing.cpu_count() * 2 + 1,
               5)  # Limit threads to max 5, because of RS denies 5+ concurrent requests TODO: Use redis
 
 timeout = 3 * 60  # 3 minutes

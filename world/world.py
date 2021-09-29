@@ -5,13 +5,13 @@ class World:
     """
 
     def __init__(self, data):
-        assert (dict, type(data))
-        self.pvp = None
-        self.number = None
-        self.player_count = None
-        self.country = None
-        self.type = None
-        self.activity = None
+        assert dict, type(data)
+        self.pvp: bool = None
+        self.number: int = None
+        self.player_count: int = None
+        self.country: str = None
+        self.type: str = None
+        self.activity: str = None
 
         self._parse_data(data)
 

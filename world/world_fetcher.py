@@ -4,6 +4,7 @@ from threading import Thread
 
 import requests
 
+from influx_db_handler.word_data_populator import WorldDataPopulator
 from utils.session_creator import SessionCreator
 from world.world_data_extractor import WorldDataExtractor
 
@@ -13,7 +14,7 @@ class WorldFetcher(Thread):
 
     _world_data_url = "https://oldschool.runescape.com/a=13/slu"
 
-    def __init__(self, interval=60, proxy=None):
+    def __init__(self, interval=10, proxy=None):
         """
         :interval The interval to download data in seconds
         """
@@ -34,6 +35,7 @@ class WorldFetcher(Thread):
                 data_extractor = WorldDataExtractor(response.text)
                 data_extractor.extract()
                 self._worlds = data_extractor.get_worlds()
+                WorldDataPopulator().populate_world_data(self._worlds)
             time.sleep(self._interval)
 
     def get_worlds(self) -> typing.List:
